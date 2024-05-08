@@ -10,6 +10,7 @@ This project implements a reusable UI component for managing data in a table for
 2. **Navigate to the project directory:**
   ```
   cd table-manager
+  ```
 3. **Install dependencies:**
   ```
 
@@ -19,4 +20,6 @@ This project implements a reusable UI component for managing data in a table for
 
     npm start
 
-Open your browser and go to http://localhost:3000 to view the application.
+    ```
+
+**Open your browser and go to http://localhost:3000 to view the application.**
