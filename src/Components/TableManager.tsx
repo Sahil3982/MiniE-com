@@ -1,21 +1,63 @@
-import React, { useState } from 'react';
-import Table from './Table';
-import AddEntryForm from './AddEntryForm';
+import React, { useState } from "react";
+import Table from "./Table";
+import AddEntryForm from "./AddEntryForm";
 
 interface Entry {
   id: number;
   name: string;
   age: number;
   email: string;
+  status: string;
+  total : number;
+
 }
 
 const TableManager: React.FC = () => {
   const [data, setData] = useState<Entry[]>([
-    { id: 1, name: 'John Doe', age: 30, email: 'john@example.com' },
-    { id: 2, name: 'Jane Smith', age: 25, email: 'jane@example.com' },
-    { id: 3, name: 'Pri Patel', age: 40, email: 'pri@example.com' },
-    { id: 3, name: 'Sahil Patel', age: 40, email: 'sahil@example.com' },
-    { id: 3, name: 'Satyam Sahu', age: 40, email: 'satyam@example.com' },
+    {
+      id: 1,
+      name: "John Doe",
+      status: "cheched",
+      age: 30,
+      total : 3008,
+      email: "john@example.com",
+    },
+    {
+      id: 2,
+      name: "Jane Smith",
+      status: "cheched",
+      age: 25,
+      total : 3008,
+
+      email: "jane@example.com",
+    },
+    {
+      id: 3,
+      name: "Pri Patel",
+      status: "cheched",
+      age: 40,
+      total : 3008,
+
+      email: "pri@example.com",
+    },
+    {
+      id: 3,
+      name: "Sahil Patel",
+      status: "cheched",
+      age: 40,
+      total : 3008,
+
+      email: "sahil@example.com",
+    },
+    {
+      id: 3,
+      name: "Satyam Sahu",
+      status: "cheched",
+      age: 40,
+      total : 3008,
+
+      email: "satyam@example.com",
+    },
   ]);
 
   const addEntry = (newEntry: Entry) => {

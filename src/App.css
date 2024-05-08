@@ -52,3 +52,9 @@ button:disabled {
   background-color: #cccccc;
   cursor: not-allowed;
 }
+.id{
+  color: rgb(223, 58, 223);
+}
+.delete-btn{
+  background-color: rgb(209, 51, 51);
+}
