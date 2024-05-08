@@ -10,16 +10,19 @@ This project implements a reusable UI component for managing data in a table for
    ```
 2. **Navigate to the project directory:**
 
-````bash
+```bash
 cd table-manager
+```
 
 3. **Install dependencies:**
 ```bash
   npm install
+  ```
 4. **Run the development server:**
+
 ```bash
   npm start
+  ```
 
 
 **Open your browser and go to http://localhost:3000 to view the application.**
-````
