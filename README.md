@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Table Manager Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements a reusable UI component for managing data in a table format. It allows users to view, add, update, and delete entries within the table. The component is built using React and TypeScript.
 
-Currently, two official plugins are available:
+## How to Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/table-manager.git
+2. **Navigate to the project directory:**
+  ```
+  cd table-manager
+3. **Install dependencies:**
+  ```
 
-## Expanding the ESLint configuration
+    npm install
+4. **Run the development server:**
+  ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    npm start
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Open your browser and go to http://localhost:3000 to view the application.

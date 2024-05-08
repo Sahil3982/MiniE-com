@@ -13,7 +13,9 @@ const TableManager: React.FC = () => {
   const [data, setData] = useState<Entry[]>([
     { id: 1, name: 'John Doe', age: 30, email: 'john@example.com' },
     { id: 2, name: 'Jane Smith', age: 25, email: 'jane@example.com' },
-    { id: 3, name: 'Bob Johnson', age: 40, email: 'bob@example.com' },
+    { id: 3, name: 'Pri Patel', age: 40, email: 'pri@example.com' },
+    { id: 3, name: 'Sahil Patel', age: 40, email: 'sahil@example.com' },
+    { id: 3, name: 'Satyam Sahu', age: 40, email: 'satyam@example.com' },
   ]);
 
   const addEntry = (newEntry: Entry) => {
